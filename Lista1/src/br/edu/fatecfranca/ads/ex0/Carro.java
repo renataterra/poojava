@@ -9,7 +9,6 @@ package br.edu.fatecfranca.ads.ex0;
 + desligar(): void
 + acelerar(float): void
 + frear(float): void
-+ toString(): string
 */
 
 public class Carro {

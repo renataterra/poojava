@@ -9,7 +9,6 @@ package br.edu.fatecfranca.ads.ex1;
 + vender(int): void
 + subir(float): void
 + descer(float): void
-+toString(): string
 */
 
 public class Produto {

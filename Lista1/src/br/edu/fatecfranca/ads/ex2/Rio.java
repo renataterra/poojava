@@ -8,7 +8,6 @@ package br.edu.fatecfranca.ads.ex2;
 + ensolarar(float): void
 + limpar(): void
 + sujar(): void
-+ toString(): string
 */
 
 public class Rio {
