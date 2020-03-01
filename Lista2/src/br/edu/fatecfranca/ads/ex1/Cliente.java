@@ -1,6 +1,5 @@
 package br.edu.fatecfranca.ads.ex1;
 
-public class Cliente {
 /* UML
 - numeroConta: String
 - numeroAgencia: String
@@ -10,6 +9,7 @@ public class Cliente {
 + realizarSaque(): void
 */
 
+public class Cliente {
     private String numeroConta;
     private String numeroAgencia;
     private String nome;
