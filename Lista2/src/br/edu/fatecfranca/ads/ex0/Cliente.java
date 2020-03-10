@@ -1,4 +1,4 @@
-package br.edu.fatecfranca.ads.ex1;
+package br.edu.fatecfranca.ads.ex0;
 
 /* UML
 - numeroConta: String
