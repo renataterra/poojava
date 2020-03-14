@@ -22,6 +22,5 @@ public class TestaCliente {
         obj2.realizarSaque(20);
         
         JOptionPane.showMessageDialog(null, obj2.toString());
- 
     }
 }
