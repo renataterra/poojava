@@ -43,7 +43,7 @@ public class Onibus {
 
     @Override
     public String toString() {
-        return "Onibus{" + "numero=" + numero + ", placa=" + placa + '}';
+        return "Onibus{" + "numero=" + numero + ", placa=" + placa + ", passageiros=" + passageiros + '}';
     }
     
     public void addPassageiro(Passageiro passageiro) {
