@@ -43,7 +43,7 @@ public class Estado {
 
     @Override
     public String toString() {
-        return "Estado{" + "nome=" + nome + ", iniciais=" + iniciais + ", cidades=" + cidades + '}';
+        return "\n Estado{" + "nome=" + nome + ", iniciais=" + iniciais + ", cidades=" + cidades + '}';
     }
     
     public void addCidade(Cidade cidade) {

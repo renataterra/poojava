@@ -1,7 +1,5 @@
 package br.edu.fatecfranca.ads.ex4;
 
-import javax.swing.JOptionPane;
-
 public class TestaPais {
     public static void main(String[] args) {
         Cidade cid1 = new Cidade("Franca", 100000);
@@ -19,14 +17,19 @@ public class TestaPais {
         estado2.setIniciais("MG");
         estado2.addCidade(cid3);
         
-        Pais pais = new Pais();
-        pais.setContinente("Brasil");
-        pais.setIniciais("BR");
-        pais.addEstado(estado1);
-        pais.addEstado(estado2);
-
-        JOptionPane.showMessageDialog(null, estado1.toString());
-        JOptionPane.showMessageDialog(null, estado2.toString());
-        JOptionPane.showMessageDialog(null, pais.toString());
+        System.out.println(estado1.toString());
+        
+        Pais pais1 = new Pais();
+        pais1.setContinente("América do Sul");
+        pais1.setIniciais("BR");
+        pais1.setNome("Brasil");
+        
+        pais1.addEstado(estado2);
+        
+        Cidade cidade4 = new Cidade("Ibiraci", 17000);
+        pais1.addCidadeEstado(cidade4, estado2);
+        
+        System.out.println(pais1.toString());
+        
     }
 }
